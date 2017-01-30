@@ -3,8 +3,8 @@ package pfb.anagrams
 import java.nio.file.Path
 
 /**
- * Checks words for inclusion in a list of words read from a file.
- * The file format is one word per line.
+ * Checks words against a list of words read
+ * from a file in which there is one word per line.
  */
 class FileBasedDictionary(pathToFile: Path) {
 
