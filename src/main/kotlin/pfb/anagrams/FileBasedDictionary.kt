@@ -8,7 +8,7 @@ import java.nio.file.Path
  */
 class FileBasedDictionary(pathToFile: Path) {
 
-    operator fun contains(string: String): Boolean {
+    fun contains(string: String): Boolean {
         return false
     }
 }
