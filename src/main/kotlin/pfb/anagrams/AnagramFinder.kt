@@ -1,7 +1,7 @@
 package pfb.anagrams
 
 /**
- * Finds the anagrams of a word.
+ * Finds and prints the anagrams of a word.
  */
 fun main(args: Array<String>) {
     //Create a dictionary from the "english.txt" file in resources/books
