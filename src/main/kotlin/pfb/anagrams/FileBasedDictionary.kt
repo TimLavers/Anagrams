@@ -1,5 +1,6 @@
 package pfb.anagrams
 
+import java.nio.file.Files
 import java.nio.file.Path
 
 /**
