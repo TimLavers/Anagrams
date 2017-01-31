@@ -1,5 +1,7 @@
 package pfb.anagrams
 
+import java.nio.file.Paths
+
 /**
  * Finds and prints the anagrams of a word.
  */
