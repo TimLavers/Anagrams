@@ -1,5 +1,6 @@
 package pfb.anagrams
 
+import java.nio.file.Files
 import java.nio.file.Path
 
 /**
@@ -8,7 +9,16 @@ import java.nio.file.Path
  */
 class FileBasedDictionary(pathToFile: Path) {
 
+    val words = mutableSetOf<String>()
+
+    init {
+        val lines = Files.readAllLines(pathToFile)
+        for (line in lines) {
+            words.add(line)
+        }
+    }
+
     fun contains(string: String): Boolean {
-        return false
+        return words.contains(string)
     }
 }
