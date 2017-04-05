@@ -3,9 +3,9 @@ package pfb.anagrams.test
 import org.junit.Assert
 import org.junit.Test
 import java.nio.file.Paths
-import pfb.anagrams.FileBasedDictionary
+import pfb.anagrams.Dictionary
 
-class FileBasedDictionaryTest {
+class DictionaryTest {
     @Test
     fun containsTest() {
 
